@@ -113,6 +113,20 @@ def tasten_druck(nummer):
         keyboard.release(Key.f4)
         keyboard.release(Key.shift_r)
         keyboard.release(Key.ctrl_r)
+    if (nummer == 14):
+        keyboard.press(Key.ctrl_r)
+        keyboard.press(Key.shift_r)
+        keyboard.press(Key.f5)
+        keyboard.release(Key.f5)
+        keyboard.release(Key.shift_r)
+        keyboard.release(Key.ctrl_r)
+    if (nummer == 15):
+        keyboard.press(Key.ctrl_r)
+        keyboard.press(Key.shift_r)
+        keyboard.press(Key.f6)
+        keyboard.release(Key.f6)
+        keyboard.release(Key.shift_r)
+        keyboard.release(Key.ctrl_r)
 
 while True:                                         # main loop
     input = serielle()
